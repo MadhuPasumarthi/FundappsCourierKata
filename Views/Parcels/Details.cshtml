@@ -1,0 +1,42 @@
+﻿@model FundAppsCourierKata.Models.Parcel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Parcel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ParcelSize)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ParcelSize)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dimension)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dimension)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.deliveryCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.deliveryCost)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ParcelId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
