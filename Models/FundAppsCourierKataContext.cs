@@ -20,5 +20,9 @@ namespace FundAppsCourierKata.Models
         }
 
         public System.Data.Entity.DbSet<FundAppsCourierKata.Models.Parcel> Parcels { get; set; }
+
+        public System.Data.Entity.DbSet<FundAppsCourierKata.Models.OrderlineItem> OrderlineItems { get; set; }
+
+        public System.Data.Entity.DbSet<FundAppsCourierKata.Models.Order> Orders { get; set; }
     }
 }

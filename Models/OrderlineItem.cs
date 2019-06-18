@@ -7,9 +7,9 @@ namespace FundAppsCourierKata.Models
 {
     public class OrderlineItem
     {
-        public int ItemId { get; set; }
-        public Parcel parcel { get; set; }
-        public int  quantity { get; set; }
-        public decimal LineItemCost { get; set; }
+        public int id { get; set; }
+        public int ParcelId { get; set; }
+        public int Quantity { get; set; }
+        public decimal price { get; set; }
     }
 }

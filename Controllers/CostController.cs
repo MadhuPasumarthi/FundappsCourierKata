@@ -42,10 +42,12 @@ namespace FundAppsCourierKata.Controllers
         // PUT: api/Cost/5
         public void Put(int id, [FromBody]string value)
         {
+
         }
 
-        // DELETE: api/Cost/5
-        public void Delete(int id)
+    
+    // DELETE: api/Cost/5
+    public void Delete(int id)
         {
         }
     }

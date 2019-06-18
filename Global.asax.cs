@@ -18,6 +18,7 @@ namespace FundAppsCourierKata
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            System.Data.Entity.Database.SetInitializer<FundAppsCourierKata.Models.FundAppsCourierKataContext>(null);
         }
     }
 }
